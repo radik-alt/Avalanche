@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".OpenWallet.FirstWallet">
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_bgdetails" />-->
+
+
+    <ImageView
+        android:id="@+id/dollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textScreen"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/payment" />
+
+
+    <LinearLayout
+        android:id="@+id/textScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingTop="10sp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/headText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dollar"
+            android:gravity="center"
+            android:text="@string/threeScreen1"
+            android:textColor="@color/twoPrimaryColor"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headText"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="@string/threeScreen2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_below="@+id/textScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="30sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25sp"
+            android:gravity="center"
+            android:text="@string/nextStep"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/clickIntent"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_clicknext" />
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/next"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="@color/primaryColor"-->
+        <!--            android:src="@drawable/ic_clicknext" />-->
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20sp"
+        android:src="@drawable/indecatorone" />
+
+</RelativeLayout>

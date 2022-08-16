@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/btnchooser.xml" value="0.1405" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/btnclick.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/btnonehome.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/btnthreehome.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/card_custome.xml" value="0.1135" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_bgdetails.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_btnstarted.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_btnview.xml" value="0.1135" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_btnviewprocess.xml" value="0.1085" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_clicknext.xml" value="0.11" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_clicknext2.xml" value="0.11" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/ic_logo.xml" value="0.18" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/input_card.xml" value="0.1175" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/input_file.xml" value="0.1" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/regist_input_wrong.xml" value="0.1075" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/registr_input.xml" value="0.111" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/drawable/rightchooser.xml" value="0.1405" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/font/font.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_buy_avax.xml" value="0.16" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_create_account.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_create_accounts.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_final_wallet.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_first_wallet.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_home.xml" value="0.378125" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_key_store_file.xml" value="0.24375" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_private_key.xml" value="0.34135338345864663" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_send_avax.xml" value="0.18770226537216828" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_store_file.xml" value="0.22" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_three_wallet.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/activity_two_wallet.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout-land/receive_dialog.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_buy_avax.xml" value="0.14" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_create_account.xml" value="0.22" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_create_accounts.xml" value="0.21" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_final_wallet.xml" value="0.25" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_finish_buy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_first_wallet.xml" value="0.17" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_key_store_file.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_private_key.xml" value="0.25" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_send_avax.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_store_file.xml" value="0.25" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_three_wallet.xml" value="0.14" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/activity_two_wallet.xml" value="0.14" />
+        <entry key="..\:/Users/Radik/AndroidStudioProjects/Avalanche/app/src/main/res/layout/receive_dialog.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

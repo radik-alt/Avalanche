@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10sp"
+        android:background="@drawable/registr_input"
+        android:gravity="center_vertical"
+        android:paddingRight="10sp">
+
+        <LinearLayout
+            android:id="@+id/topClose"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:gravity="right"
+            android:padding="10sp">
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_close" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nameReceiev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topClose"
+            android:layout_marginBottom="10sp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECEIVE "
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVAX"
+                android:textColor="@color/twoPrimaryColor"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameReceiev"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="25sp"
+            android:paddingRight="25sp"
+            android:paddingBottom="50sp">
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="100sp"
+                android:src="@drawable/ic_logowhitesloy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:gravity="center_horizontal"
+                android:text="Avalanche deposit address:"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hashKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="40sp"
+                android:gravity="center"
+                android:lineHeight="30sp"
+                android:text="136jGgfjMm6Alol41p2h782fsh136jGgfjMm6Alol41p2h782fsh...yt7"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <ImageButton
+                android:id="@+id/copyPast"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_copyadress" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

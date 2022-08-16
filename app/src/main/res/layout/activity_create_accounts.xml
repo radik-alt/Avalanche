@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:padding="20sp"
+    tools:context=".Account.CreateAccounts">
+
+
+    <GridLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_marginBottom="25sp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25sp"
+            android:background="@color/primaryColor"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25sp"
+            android:src="@drawable/ic_logo" />
+    </GridLayout>
+
+    <TextView
+        android:layout_below="@+id/topBar"
+        android:id="@+id/titleHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:lineHeight="34sp"
+        android:paddingLeft="10sp"
+        android:text="@string/titleCreateScreen"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleHome"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/privetKey"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:backgroundTint="@color/cards"
+            app:cardCornerRadius="20dp">
+
+
+            <LinearLayout
+                android:onClick="typeRegistr"
+                android:id="@+id/privateKeyLiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="25sp">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lock" />
+
+                <TextView
+                    android:id="@+id/textKey"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15sp"
+                    android:text="Private\nKey →"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_columnWeight="1"
+            android:id="@+id/privateFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="@color/cards"
+            app:cardCornerRadius="20dp">
+
+
+            <LinearLayout
+                android:onClick="typeRegistr"
+                android:id="@+id/linerKeystore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="25sp">
+
+                <ImageView
+                    android:id="@+id/folder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/folder" />
+
+                <TextView
+                    android:id="@+id/textFile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15sp"
+                    android:textStyle="bold"
+                    android:text="Keystore\nFile →"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/privatePhrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="@color/cards"
+            app:cardCornerRadius="20dp">
+
+
+            <LinearLayout
+                android:onClick="typeRegistr"
+                android:id="@+id/linerMnemonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="25sp">
+
+                <ImageView
+                    android:id="@+id/iconThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/password" />
+
+                <TextView
+                    android:id="@+id/textPhrase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15sp"
+                    android:textStyle="bold"
+                    android:text="Mnemonic\nPhrase →"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+</RelativeLayout>
